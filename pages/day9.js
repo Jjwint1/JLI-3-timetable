@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
 
-import { TimetableBlock } from '../components/timetableblock/TimetableBlock'
+import { TimetableBlock } from '../components/TimetableBlock/TimetableBlock'
 
 const Day9 = () => {
   return (
