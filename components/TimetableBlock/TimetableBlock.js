@@ -1,5 +1,5 @@
 import styles from './TimetableBlock.module.scss'
-import { motion } from './node_modules/framer-motion'
+import { motion } from 'framer-motion'
 
 export class TimetableBlock extends React.Component {
 
