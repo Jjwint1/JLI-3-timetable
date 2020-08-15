@@ -1,0 +1,120 @@
+.header {
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px 0px 0px;
+    color: #002d61;
+  
+    .title {
+      font-size: 50px;
+      margin: 0;
+    }
+  
+    .tagLine {
+        font-size: 25px;
+        margin: 20px auto;
+    }
+  }
+
+  .nav {
+      display: flex;
+      justify-content: center;
+      ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        padding: 0;
+        li {
+            padding: 15px;
+            a {
+                text-decoration: none;
+                color: #2c3642;
+                opacity: 0.5;
+                font-size: 18px;
+                transition-duration: 0.4s;
+            }
+            a:hover {
+                opacity: 1;
+                color: #002d61;
+            }
+        }
+      }
+  }
+
+  .mobile_nav {
+      display: none;
+      text-align: center;
+      button {
+          border: none;
+          background-color: transparent;
+          font-family: Baskerville;
+          color: #002d61;
+          font-size: 17px;
+          padding: 5px;
+      }
+      button:hover {
+          cursor: pointer;
+      }
+      .open {
+          display: block;
+      }
+      .closed {
+          display: none;
+      }
+      ul {
+          list-style-type: none;
+          padding: 0;
+          li {
+              padding: 5px;
+          }
+          a {
+            text-decoration: none;
+            color: #2c3642;
+            opacity: 0.5;
+            font-size: 18px;
+            transition-duration: 0.4s;
+            }
+        a:hover {
+            opacity: 1;
+            color: #002d61;
+        }
+      }
+  }
+
+  #active {
+      opacity: 1;
+      color: #002d61;
+  }
+
+  @media only screen and (max-width: 450px) {
+    .header {
+        .title {
+            font-size: 30px;
+        }
+
+        .tagLine {
+            font-size: 20px;
+        }
+    }
+    .nav {
+        display: none;
+    }
+    .mobile_nav {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+    .header {
+        .title {
+            font-size: 20px;
+        }
+
+        .tagLine {
+            font-size: 10px;
+        }
+    }
+}
