@@ -1,15 +1,15 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.scss'
+import styles from '../../styles/Home.module.scss'
 
-import { TimetableBlock } from '../components/TimetableBlock/TimetableBlock'
+import { TimetableBlock } from '../../components/TimetableBlock/TimetableBlock'
 
-const Day8 = () => {
+const Day5 = () => {
   return (
     <>
-      <Head><title>JLI | Day 8</title></Head>
+      <Head><title>JLI | Day 5</title></Head>
       <div className={styles.timetable}>
         <div className={styles.date}>
-          Day 8 - Sunday 23rd August
+          Day 5 - Thursday 20th August
         </div>
 
         <TimetableBlock
@@ -28,6 +28,6 @@ const Day8 = () => {
   )
 }
 
-Day8.page = 'day8';
+Day5.page = 'day5';
 
-export default Day8;
+export default Day5;
