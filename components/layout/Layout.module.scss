@@ -19,6 +19,11 @@
     }
   }
 
+  .title_link {
+      text-decoration: none;
+      color: #002d61;
+  }
+
   .nav {
       display: flex;
       justify-content: center;
@@ -88,6 +93,14 @@
       opacity: 1;
       color: #002d61;
   }
+
+
+  .group {
+      text-align: center;
+      font-size: 24px;
+      color: #002d61;
+  }
+
 
   @media only screen and (max-width: 450px) {
     .header {

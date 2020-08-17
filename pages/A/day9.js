@@ -29,5 +29,6 @@ const Day9 = () => {
 }
 
 Day9.page = 'day9';
+Day9.group = 'A';
 
 export default Day9;

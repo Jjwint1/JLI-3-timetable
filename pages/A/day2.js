@@ -30,5 +30,6 @@ const Day2 = () => {
 }
 
 Day2.page = 'day2';
+Day2.group = 'A';
 
 export default Day2;

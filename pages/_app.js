@@ -9,14 +9,24 @@ class MyApp extends App {
   render() {
     const { Component, pageProps, router } = this.props;
     const page = Component.page;
+    const group = Component.group;
 
-    return (
-      <Layout active={page}>
+
+    if (page === 'index') {
+      return (
         <AnimatePresence exitBeforeEnter>
           <Component {...pageProps}/>
         </AnimatePresence>
-      </Layout>
-    )
+      )
+    } else {
+      return (
+        <Layout active={page} group={group}>
+          <AnimatePresence exitBeforeEnter>
+            <Component {...pageProps}/>
+          </AnimatePresence>
+        </Layout>
+      )
+    }
   }
 }
 
