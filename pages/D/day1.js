@@ -13,33 +13,39 @@ const Day1 = () => {
         </div>
 
         <TimetableBlock
-          time={"8:30 - 9:30"}
-          event={"Breakfast"}
+          time={"15:00 - 17:00"}
+          event={"Students arrive"}
+          location={"RAU"}
+        />
+
+        <TimetableBlock
+          time={"17:30 - 18:15"}
+          event={"Lecture by Robin Koerner"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"18:30 - 19:45"}
+          event={"DINNER"}
           location={"RAU Dining Hall"}
         />
 
         <TimetableBlock
-          time={"9:30 - 10:15"}
-          event={"Lecture by Martin Cox"}
+          time={"19:45 - 20:30"}
+          event={"Maths Placement Test"}
           location={"Caplan Lecture Theatre"}
         />
 
         <TimetableBlock
-          time={"10:30 - 11:15"}
-          event={"Seminar with Martin Cox"}
+          time={"20:30 - 21:15"}
+          event={"Lecture by Dr Jamie Whyte"}
           location={"Caplan Lecture Theatre"}
         />
 
         <TimetableBlock
-          time={"11:30 - 12:15"}
-          event={"Lecture by Jamie Whyte"}
-          location={"Caplan Lecture Theatre"}
-        />
-
-        <TimetableBlock
-          time={"12:30 - 13:30"}
-          event={"Lunch"}
-          location={"RAU Dining Hall"}
+          time={"00:00"}
+          event={"Lights Out"}
+          location={""}
         />
       </div>
     </>
