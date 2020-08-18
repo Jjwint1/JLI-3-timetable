@@ -26,7 +26,7 @@ export default class Layout extends React.Component {
         
         return (
             <>
-            <Head><title>{'JLI' + ' | Group ' + group + ' | Day ' + day}</title></Head>
+            <Head><title>{'JLI' + ' | Group ' + group + ' | ' + day}</title></Head>
         <div className={styles.header}>
             <p className={styles.title}><Link href='/'><a className={styles.title_link}>John Locke Institute</a></Link></p>
             <p className={styles.tagLine}>2020 Timetable</p>
