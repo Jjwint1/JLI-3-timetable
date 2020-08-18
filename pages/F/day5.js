@@ -20,8 +20,44 @@ const Day5 = () => {
 
         <TimetableBlock
           time={"9:30 - 10:15"}
+          event={"Lecture by Dr Jamie Whyte"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"10:30 - 11:15"}
+          event={"Precept with Joe and Matteo"}
+          location={"Davies Room / Hayek Room"}
+        />
+
+        <TimetableBlock
+          time={"11:30 - 12:15"}
+          event={"Seminar with Douglas Carswell"}
+          location={"Friedman Room"}
+        />
+
+        <TimetableBlock
+          time={"12:30 - 13:15"}
+          event={"LUNCH"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"14:30 - 15:15"}
+          event={"Seminar with Martin Cox"}
+          location={"Ryan Room"}
+        />
+
+        <TimetableBlock
+          time={"17:30 - 18:15"}
           event={"Lecture by Martin Cox"}
           location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"18:50 - 20:00"}
+          event={"DINNER"}
+          location={"RAU Dining Hall"}
         />
       </div>
     </>
