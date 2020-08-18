@@ -22,10 +22,7 @@ export default class Layout extends React.Component {
 
     render() {
         const group = this.props.group;
-        var day = this.props.active;
-        if (day) {
-            day = day.split('y')[1];
-        }
+        const day = this.props.day;
         
         return (
             <>
