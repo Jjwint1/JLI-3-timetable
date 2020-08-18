@@ -6,7 +6,6 @@ import { TimetableBlock } from '../../components/TimetableBlock/TimetableBlock'
 const Day1 = () => {
   return (
     <>
-      <Head><title>JLI | Day 1</title></Head>
       <div className={styles.timetable}>
         <div className={styles.date}>
           Day 1 - Sunday 16th August
