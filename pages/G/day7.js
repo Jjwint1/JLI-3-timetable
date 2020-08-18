@@ -23,6 +23,54 @@ const Day7 = () => {
           event={"Lecture by Martin Cox"}
           location={"Caplan Lecture Theatre"}
         />
+
+        <TimetableBlock
+          time={"10:30 - 11:15"}
+          event={"History Precept with Prateek Joshy"}
+          location={"Ryan Room"}
+        />
+
+        <TimetableBlock
+          time={"11:30 - 12:15"}
+          event={"Seminar with Dr Jamie Whyte"}
+          location={"Locke Room"}
+        />
+
+        <TimetableBlock
+          time={"12:30 - 13:15"}
+          event={"LUNCH"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"13:30 - 14:15"}
+          event={"History Precept with Danish Kahn"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"14:30 - 15:15"}
+          event={"Class with Martin Cox"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"15:30 - 18:15"}
+          event={"Mock Interviews and Admissions Consultations with Prateek Joshy and Danish Kahn"}
+          location={"Ryan Room / Locke Room"}
+        />
+
+        <TimetableBlock
+          time={"19:00 - 20:00"}
+          event={"DINNER"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"00:00"}
+          event={"Lights Out"}
+          location={""}
+        />
       </div>
     </>
   )
