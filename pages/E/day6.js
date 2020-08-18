@@ -19,9 +19,33 @@ const Day6 = () => {
         />
 
         <TimetableBlock
-          time={"9:30 - 10:15"}
-          event={"Lecture by Martin Cox"}
-          location={"Caplan Lecture Theatre"}
+          time={"9:45"}
+          event={"Coach Departs from RAU"}
+          location={"RAU Chapel"}
+        />
+
+        <TimetableBlock
+          time={""}
+          event={"Visit to Oxford"}
+          location={""}
+        />
+
+        <TimetableBlock
+          time={"17:00"}
+          event={"Coach Departs from Oxford"}
+          location={""}
+        />
+
+        <TimetableBlock
+          time={"18:50"}
+          event={"DINNER"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"00:00"}
+          event={"Lights Out"}
+          location={""}
         />
       </div>
     </>
