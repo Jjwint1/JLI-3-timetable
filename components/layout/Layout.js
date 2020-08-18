@@ -23,7 +23,10 @@ export default class Layout extends React.Component {
     render() {
         const group = this.props.group;
         var day = this.props.active;
-        day = day.split('y')[1];
+        if (day) {
+            day = day.split('y')[1];
+        }
+        
         return (
             <>
             <Head><title>{'JLI' + ' | Group ' + group + ' | Day ' + day}</title></Head>
