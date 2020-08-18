@@ -22,9 +22,13 @@ export default class Layout extends React.Component {
 
     render() {
         const group = this.props.group;
+        const day = this.props.active;
+        if (day) {
+            day = day.toUpperCase();
+        }
         return (
             <>
-            <Head><title>{'JLI' + ' | ' + this.props.active.toUpperCase() + ' | ' + 'Group ' + this.props.group}</title></Head>
+            <Head><title>{'JLI' + ' | ' + day + ' | ' + 'Group ' + this.props.group}</title></Head>
         <div className={styles.header}>
             <p className={styles.title}><Link href='/'><a className={styles.title_link}>John Locke Institute</a></Link></p>
             <p className={styles.tagLine}>2020 Timetable</p>
