@@ -23,9 +23,6 @@ export default class Layout extends React.Component {
     render() {
         const group = this.props.group;
         const day = this.props.active;
-        if (day) {
-            day = day.toUpperCase();
-        }
         return (
             <>
             <Head><title>{'JLI' + ' | ' + day + ' | ' + 'Group ' + this.props.group}</title></Head>
