@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <>
-      <Head><title>JLI | Day 1</title></Head>
+      <Head><title>JLI | Timetable</title></Head>
 
       <div className={styles.header}>
           <p className={styles.title}>John Locke Institute</p>
