@@ -62,14 +62,14 @@ const Day3 = () => {
 
         <TimetableBlock
           time={"16:30 - 17:15"}
-          event={"Seminar with Dr Jamie Whyte"}
-          location={"Locke Room"}
+          event={"Precept with Matteo"}
+          location={"Hayek Room"}
         />
 
         <TimetableBlock
           time={"17:30 - 18:15"}
-          event={"Seminar with Robin Koerner"}
-          location={"Friedman Room"}
+          event={"Seminar with Dr Jamie Whyte"}
+          location={"Locke Room"}
         />
 
         <TimetableBlock

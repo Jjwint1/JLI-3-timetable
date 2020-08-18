@@ -23,6 +23,73 @@ const Day3 = () => {
           event={"Lecture by Martin Cox"}
           location={"Caplan Lecture Theatre"}
         />
+
+        <TimetableBlock
+          time={"10:30 - 11:15"}
+          event={"Seminar with Dr Jamie Whyte"}
+          location={"Locke Room"}
+        />
+
+        <TimetableBlock
+          time={"11:30 - 12:15"}
+          event={"Seminar with Robin Koerner"}
+          location={"Friedman Room"}
+        />
+
+        <TimetableBlock
+          time={"12:30 - 13:15"}
+          event={"LUNCH"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"13:30 - 14:15"}
+          event={"Lecture by Martin Cox"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"14:30 - 15:15"}
+          event={"Lecture by Dr Jamie Whyte"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"15:15 - 16:30"}
+          event={"Break"}
+          location={""}
+        />
+
+        <TimetableBlock
+          time={"16:30 - 17:15"}
+          event={"Seminar with Martin Cox"}
+          location={"Ryan Room"}
+        />
+
+        <TimetableBlock
+          time={"17:30 - 18:15"}
+          event={"Precept with Joe"}
+          location={"Hayek Room"}
+        />
+
+        <TimetableBlock
+          time={"18:50 - 20:00"}
+          event={"DINNER"}
+          location={"RAU Dining Room"}
+        />
+
+        <TimetableBlock
+          time={"20:00 - 20:45"}
+          event={"Panel on Tutorial Essays with Martin Cox, Robin Koerner and Dr Jamie Whyte"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"00:00"}
+          event={"Lights Out"}
+          location={""}
+        />
+
       </div>
     </>
   )
