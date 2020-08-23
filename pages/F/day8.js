@@ -16,6 +16,48 @@ const Day8 = () => {
           event={"Breakfast"}
           location={"RAU Dining Hall"}
         />
+
+        <TimetableBlock
+          time={"9:30 - 10:15"}
+          event={"Tutorials with Martin Cox, Robin Koerner and Jamie Whyte"}
+          location={"Friedman Room, Locke Room, Hayek Room"}
+        />
+
+        <TimetableBlock
+          time={"10:30 - 11:15"}
+          event={"Seminar with Dr Jamie Whyte"}
+          location={"Locke Room"}
+        />
+
+        <TimetableBlock
+          time={"15:30 - 16:15"}
+          event={"Seminar with Terence Kealy"}
+          location={"Friedman Room"}
+        />
+
+        <TimetableBlock
+          time={"16:30 - 17:15"}
+          event={"Tutorials with Robin Koerner"}
+          location={"Locke Room"}
+        />
+
+        <TimetableBlock
+          time={"17:30 - 18:15"}
+          event={"Precept with Joe and Matteo"}
+          location={"Davies Room / Hayek Room"}
+        />
+
+        <TimetableBlock
+          time={"18:50 - 20:00"}
+          event={"DINNER"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"20:00 - 20:45"}
+          event={"Lecture by Brooks Newmark"}
+          location={"Caplan Lecture Theatre"}
+        />
       </div>
     </>
   )
