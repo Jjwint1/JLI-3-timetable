@@ -16,6 +16,54 @@ const Day9 = () => {
           event={"Breakfast"}
           location={"RAU Dining Hall"}
         />
+
+        <TimetableBlock
+          time={"9:30 - 10:15"}
+          event={"Lecture by Matteo Baccaglini"}
+          location={"Caplan Lecture Theatre"}
+        />
+
+        <TimetableBlock
+          time={"10:30 - 12:15"}
+          event={"TSA Training with Robin Koerner and Joe Winterburn"}
+          location={"Hayek Room"}
+        />
+
+        <TimetableBlock
+          time={"12:30 - 13:30"}
+          event={"LUNCH"}
+          location={"RAU Dining Hall"}
+        />
+
+        <TimetableBlock
+          time={"13:30 - 14:15"}
+          event={"Maths Test"}
+          location={"Hayek Room"}
+        />
+
+        <TimetableBlock
+          time={"14:30 - 15:15"}
+          event={"Seminar with Brooks Newmark"}
+          location={"Davies Room"}
+        />
+
+        <TimetableBlock
+          time={"15:30 - 16:15"}
+          event={"Tutorials with Dr Jamie Whyte"}
+          location={"Hobbes Room"}
+        />
+
+        <TimetableBlock
+          time={"16:30 - 17:15"}
+          event={"Semianr with Martin Cox"}
+          location={"Ryan Room"}
+        />
+
+        <TimetableBlock
+          time={"18:50 - 20:00"}
+          event={"DINNER"}
+          location={"RAU Dining Hall"}
+        />
       </div>
     </>
   )
